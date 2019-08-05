@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anna Clementson Front End Developer / Software Tester</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+              <div class="nav-brand"><h3></h3></div>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavBar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#aboutSection">About</a></li>
+                  	<li><a href="#portfolioSection">Portfolio</a></li>
+					<li><a href="#experienceSection">Experience</a></li>
+					<li><a href="#contactSection">Contact Anna</a></li>
+				</ul>
+		</div>
+      </div>
+          </nav>
+
+	<!-- Start of Image Carousel -->
+	<div id="carouselSection">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="img/mountains.png">
+				<div class="carousel-caption">
+                  <h1>Anna Clementson</h1>
+                  <h4>Front End Developer/ Software Tester</h4>
+				</div>
+			</div> <!--End Active Image -->
+			<div class="item">
+				<img src="img/red.png">
+			</div>
+			<div class="item">
+				<img src="img/snow.png">
+			</div>
+		</div>
+		<!-- Start of the Slider controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+		<span class="sr-only">Next</span>
+	</a>
+	</div>
+</div> <!--End of Image Carousel -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8" id="aboutSection">
+				<div class="titlePadding"><h2>About Anna</h2></div>
+				<p>I graduated in Digital Media and Animation in 2014 and currently work as a Front End Web Developer alongside my job as a Software Tester. 
+My love for website development has led me to various online qualifications listed in detail below. My aim is to further this as well as creating responsive, individual websites suited to all device types.</p>
+			</div>
+			<div class="col-md-4">
+				<img id="anna" src="img/anna.jpeg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center" id="scriptingSection">
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="img/html5.png" id="scriptingIcon">
+				<h4>HTML 5</h4>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/javascript.png" id="scriptingIcon">
+				<h4>JavaScript</h4>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/css3.png" id="scriptingIcon">
+				<h4>CSS3</h4>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/bootstrap.png" id="scriptingIcon">
+				<h4>Bootstrap</h4>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/jquery.png" id="scriptingIcon">
+				<h4>jQuery</h4>
+			</div>
+          	<div class="col-sm-2">
+				<img src="img/wordpress.png" id="scriptingIcon">
+				<h4>WordPress</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid padding" id="portfolioSection">
+		<div class="text-center">
+		<h2>Portfolio</h2>
+	</div>
+		<div class="row padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="img-responsive">
+				<h4>Memory Game</h4>
+				<p class="portfolioDescription">JavaScript allows me to generate a random order of cards to hide and display when clicked. Once paired with their double the amount of time is shown with a rating determind by how many attempts were made.</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a target="_blank" href="https://codepen.io/annaclementson/pen/BPLveM">
+				<img id="portfolioImages" src="img/match.png" class="img-responsive">
+			</a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Pixel Maker</h4>
+				<p class="portfolioDescription">The Pixel art maker allows you to create your own size canvas and create a pixel art design using any colour need to make a beautiful piece of pixeled art work. It was created with HTML, CSS, Javascript and jQuery.</p>
+				
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a target="_blank" href="https://codepen.io/annaclementson/pen/PQPWbG">
+				<img id="portfolioImages" src="img/pixel.png" class="img-responsive">
+			</a>
+			</div>
+		</div>
+		<div class="row padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="portfolioSection">
+				<h4>Playstation Blog</h4>
+				<p class="portfolioDescription">A visual copy of the offical playstation blog using the insepction tools and recreating the design with HTML, CSS and JavaScript.</p>
+			</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            	<a target="_blank" href="https://codepen.io/annaclementson/pen/VQKmEW">
+				<img id="portfolioImages" src="img/playstation.png" class="img-responsive">
+			</a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Telegraph Marketing Email</h4>
+				<p class="portfolioDescription">Designed and created an engaging customer facing email with a brief overview of Equity Release. Including stats and graphics designed using Adobe Illustrator.</p>
+			</div>
+            	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            	<a target="_blank" href="https://codepen.io/annaclementson/pen/KRGgbQ">
+				<img id="portfolioImages" src="img/telegraph.png" class="img-responsive">
+			</a>
+			</div>	
+		</div>
+	</div>
+  
+ 
+
+
+	<div class="container" id="experienceSection">
+		<h2 class="text-center titlePadding">Experience</h2>
+      
+      <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img id="icon" src="img/microtestlogo.png" class="img-responsive">
+			</div>
+			<div class="col-md-6" id="experienceSection">
+				<p>As a Software Tester my role includes smoke, regression, system and acceptance testing. I design individual manual test scripts to detect any defects and liaise with developers to ensure that the software is working as expected. 
+</p>
+			</div>
+		</div>
+	</div>
+      
+		<div class="row">
+			<div class="col-md-6" id="experienceSection">
+				<p>Previously I have worked as a Head Office Co-ordinator and part time Junior Digital Designer with Responsible Life, where I was assisting the Digital design team with a number of projects. We worked with HTML, CSS, JavaScript, PHP, Wordpress, Photoshop and InDesign. I made live changes to the company's websites and direct marketing.</p>
+			</div>
+			<div class="col-md-6">
+				<img id="icon" src="img/responsiblelife.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img id="icon" src="img/udacity.png" class="img-responsive udacity">
+			</div>
+			<div class="col-md-6" id="experienceSection">
+				<p>I have completed a 3 month course with Udacity which granted me a place on the Front End Development Nanodegree Scholarship. This included the studying of HTML, CSS, and JavaScript which was assessed through various projects shown.
+</p>
+			</div>
+		</div>
+	</div>
+
+<footer class="container-fluid text-left padding">
+	<div class="row">
+		<div class="col-sm-4" id="contactSection">
+			<h3>Contact Anna</h3>
+			<br>
+			<p>07428528312</p>
+			<p>annaclementson@hotmail.co.uk</p>
+         
+		</div>
+      <div class="col-sm-4" id="contactSection">
+			<h3></h3>
+			<br>
+			<h4></h4>
+         	<h4></h4>
+		</div>
+		<div class="col-sm-4 text-right">
+			<h3>Connect</h3>
+			<a target="_blank" href="https://codepen.io/annaclementson/" class="fa fa-codepen"></a>
+			<a target="_blank" href="https://www.facebook.com/anna.clementson" class="fa fa-facebook"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/anna-clementson-801a75109/" class="fa fa-linkedin"></a>
+		</div>
+		<div class="col-sm-4">
+			<img src="" class="icon">
+		
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
